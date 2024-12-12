@@ -1,0 +1,43 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main-content {
+    background-color: #333;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.image-section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #555;
+    display: none;
+}
+
+.image-section img.active {
+    display: block;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    font-size: 14px;
+}
+
+.links {
+    background-color: #444;
+    border-radius: 8px;
+    padding: 10px;
+}
